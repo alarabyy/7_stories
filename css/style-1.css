@@ -1,0 +1,51 @@
+body{
+ border:20px black ;
+background-color: rgb(255, 255, 255);
+
+}
+
+.img1 img{
+
+    transform: translate(24vw,20vh);
+        width: 55vw;
+        height: 40vh;
+}
+
+h2{
+    color: rgb(38, 36, 59);
+    font-weight:lighter  ;
+    font-size: 4vw;
+transform: translate(30vw,22vh);
+
+}
+.but{
+    border: none;
+    transform: translate(45vw,22vh);
+    font-size: 1.5vw ;
+    width: 15vw;
+    height: 5vh;
+    background: white ;
+    background-color: white ;
+    border-radius: 5% 2px;
+box-shadow: 2px 2px 20px rgb(94, 94, 94);
+
+}
+
+
+.but:hover{
+    background: rgb(72, 92, 180);
+    color: white;
+}
+.but:focus{
+    border: rgb(149, 53, 53);
+}
+.line12{
+border: 2px black;
+/* border-top-right-radius: 0%; */
+
+}
+.line34{
+/* border-bottom-left-radius: 0%; */
+border: 2px black;
+
+}
