@@ -1,9 +1,10 @@
 body{
  border-top:20px black double;
  border-bottom: 20px black double;
- height: 94vh;
- width: 99vw;
+ height: 85vh;
+ width: 100vw;
 background-color: rgb(255, 255, 255);
+transform: translate(-0.5vw,2vh);
 
 }
 
@@ -21,16 +22,17 @@ h2{
     font-weight:bolder  ;
     font-size: 5vw;
     background-color: rgb(255, 255, 255);
-
-transform: translate(2vw,20vh);
+/* text-decoration: underline; */
+box-shadow: 2px  20px;
+transform: translate(2vw,19vh);
 
 }
 .but{
     /* z-index: 3index; */
     border: none;
-    transform: translate(40vw,6vh);
+    transform: translate(40vw,5vh);
     font-size: 1.9vw ;
-    width: 15vw;
+    width: 17vw;
     height: 5vh;
     color: rgb(255, 255, 255);
     /* opacity: 50%; */
