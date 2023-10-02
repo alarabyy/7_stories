@@ -1,31 +1,37 @@
 body{
  border:20px black ;
-background-color: rgb(255, 255, 255);
+background-color: rgb(233, 223, 210);
 
 }
 
 .img1 img{
 
-    transform: translate(24vw,20vh);
+    transform: translate(24vw,9vh);
         width: 55vw;
         height: 40vh;
 }
 
 h2{
+    border: none;
+    display: inline-block;
     color: rgb(38, 36, 59);
     font-weight:lighter  ;
-    font-size: 4vw;
-transform: translate(30vw,22vh);
+    font-size: 5vw;
+    background-color: rgb(233, 223, 210);
+
+transform: translate(8vw,25vh);
 
 }
 .but{
+    z-index: 3index;;
     border: none;
-    transform: translate(45vw,22vh);
-    font-size: 1.5vw ;
+    transform: translate(45vw,10vh);
+    font-size: 1.9vw ;
     width: 15vw;
     height: 5vh;
     background: white ;
-    background-color: white ;
+    opacity: 50%;;
+    background-color: rgb(233, 223, 210) ;
     border-radius: 5% 2px;
 box-shadow: 2px 2px 20px rgb(94, 94, 94);
 
@@ -33,7 +39,7 @@ box-shadow: 2px 2px 20px rgb(94, 94, 94);
 
 
 .but:hover{
-    background: rgb(72, 92, 180);
+    background: rgb(239, 177, 53);
     color: white;
 }
 .but:focus{
