@@ -1,49 +1,52 @@
 body{
- border:20px black ;
-background-color: rgb(233, 223, 210);
+ border-top:20px black double;
+ border-bottom: 20px black double;
+ height: 94vh;
+ width: 99vw;
+background-color: rgb(255, 255, 255);
 
 }
 
 .img1 img{
 
-    transform: translate(24vw,9vh);
-        width: 55vw;
-        height: 40vh;
+    transform: translate(16vw,5vh);
+        width: 65vw;
+        height: 50vh;
 }
 
 h2{
     border: none;
     display: inline-block;
     color: rgb(38, 36, 59);
-    font-weight:lighter  ;
+    font-weight:bolder  ;
     font-size: 5vw;
-    background-color: rgb(233, 223, 210);
+    background-color: rgb(255, 255, 255);
 
-transform: translate(8vw,25vh);
+transform: translate(2vw,20vh);
 
 }
 .but{
-    z-index: 3index;;
+    /* z-index: 3index; */
     border: none;
-    transform: translate(45vw,10vh);
+    transform: translate(40vw,6vh);
     font-size: 1.9vw ;
     width: 15vw;
     height: 5vh;
-    background: white ;
-    opacity: 50%;;
-    background-color: rgb(233, 223, 210) ;
+    color: rgb(255, 255, 255);
+    /* opacity: 50%; */
+    background-color: rgb(28, 28, 28) ;
     border-radius: 5% 2px;
-box-shadow: 2px 2px 20px rgb(94, 94, 94);
+    box-shadow: 2px 2px 20px rgb(117, 117, 117);
 
 }
 
 
 .but:hover{
-    background: rgb(239, 177, 53);
-    color: white;
+    background: rgb(255, 253, 253);
+    color: rgb(3, 3, 3);
 }
 .but:focus{
-    border: rgb(149, 53, 53);
+    border: rgb(255, 249, 249);
 }
 .line12{
 border: 2px black;
